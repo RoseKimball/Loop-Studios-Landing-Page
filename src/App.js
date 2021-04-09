@@ -1,10 +1,19 @@
 import React from 'react';
-import './App.scss';
+import './App.css';
+import Header from './Containers/Header/Header';
+import Description from './Containers/Description/Description';
+import Creations from './Containers/Creations/Creations';
+import Footer from './Containers/Footer/Footer';
 
 const App = () => {
   return (
-    <div className="App">
-      
+    <div className='app'>
+      <Header />
+        <div className='container'>
+            <Description />
+            <Creations />
+        </div>
+      <Footer />
     </div>
   );
 }
