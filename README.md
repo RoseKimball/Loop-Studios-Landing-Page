@@ -2,7 +2,7 @@
 
 ### Screenshot
 
-![](/images/Screenshot from 2021-04-14 14-12-48.png)
+![](https://imgur.com/a/ZYRdw9U)
 
 ### Links
 
