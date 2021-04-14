@@ -50,3 +50,32 @@
     color: #606060;
     font-family: 'Alata', sans-serif;
 }
+
+@media only screen and (max-width: 650px) {
+    .footer {
+        flex-direction: column;
+        padding: 100px;
+    }
+    .socials {
+        max-width: 7%;
+        margin-right: 0;
+        margin-left: 10%;
+        padding-top: 70%;
+    }
+    .footerMenu {
+        flex-direction: column;
+        margin-left: 10%;
+        font-size: 18px;
+        margin-top: 5%;
+    }
+    .listItem {
+        padding: 5%;
+    }
+    .social {
+        padding: 30%;
+        width: 110%;
+    }
+    .copy {
+        margin-left: 5%;
+    }
+}

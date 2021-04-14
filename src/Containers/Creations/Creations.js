@@ -38,14 +38,22 @@ const creationData = [
     }
 ]
 
+/*
+
+give mobile grid a class and hide it when in desktop
+Add another button undeneath grid and pass mobile classname to it-
+it will be hidden in desktop and have different styling
+*/
+
 const Creations = () => {
     return (
         <>
             <div className='ourCreations'>
                 <h1 className='header'>OUR CREATIONS</h1>
-                <Button />
+                <Button className='buttonBlack'/>
             </div>
             <Creation data={creationData}/>
+            <Button className='buttonWhite'/>
         </>
     )
 }

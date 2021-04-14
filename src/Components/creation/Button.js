@@ -1,8 +1,8 @@
 import React from 'react';
 
-const Button = () => {
+const Button = (props) => {
     return (
-        <button className='button'>SEE ALL</button>
+        <button className={props.className}>SEE ALL</button>
     )
 }
 

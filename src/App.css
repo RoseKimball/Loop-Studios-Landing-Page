@@ -19,3 +19,23 @@
     flex-direction: column;
     align-items: center;
 }
+
+/*
+ems: based off of the parent's font-size. if the parent's font size is 
+25px, 1em will be 25px and 2em will be 50px.
+
+This also means it can get out of hand. Lets say you have two nested
+containers, the outer one is 2em (16px default * 2 = 30px).
+The inner one is also 2em, based off the outer one. so it's 3 * 2 = 60.
+and so on.
+
+However! margin, padding, or anything else is different from font size.
+a padding of 1em will be the same as the fontsize of that element itself.
+(using ems for anything else will be based off the font size of the element.)
+
+rem: (root em) is going to be based off of html font size.
+so, if you set html font size to 15px, 2rem will always be 30px 
+no matter what the size of the parent component is.
+stuff other than font size is also still based off of the root em.
+This makes rem units a bit more consistent.
+*/

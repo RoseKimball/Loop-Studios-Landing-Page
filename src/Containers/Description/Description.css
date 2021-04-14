@@ -10,10 +10,6 @@
     position: relative;
 }
 
-/* .interactive {
-    position: relative;
-} */
-
 .containerCopy {
     display: flex;
     flex-direction: column;
@@ -45,4 +41,44 @@
     background-color: white;
     right: 30%;
     bottom: 0%;
+}
+
+.mobile {
+    display: none;
+}
+
+@media only screen and (max-width: 650px) {
+    .block {
+        display: none;
+    }
+
+    .desktop {
+        display: none;
+    }
+
+    .mobile {
+        display: block;
+        max-width: 100%;
+    }
+
+    .containerDescription {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        max-width: 100vw;
+    }
+
+    .containerCopy {
+        text-align: center;
+        max-width: 80%;
+        margin: 0;
+        /* margin: auto; */
+    }
+    .copyHeader {
+        font-size: 40px;
+    }
+
+    .copyText {
+        font-size: 18px;
+    }
 }
