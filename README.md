@@ -2,7 +2,7 @@
 
 ### Screenshots
 
-[](https://imgur.com/gallery/ZYRdw9U)
+[Desktop and mobile](https://imgur.com/gallery/ZYRdw9U)
 
 ### Built with
 
